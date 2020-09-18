@@ -14,7 +14,7 @@
   background-size: 100%;
 }
 
-.baulisaac .deg {
+.baulisaac .degisaac {
   background-image: linear-gradient(rgba(000,000,000,0.0),rgba(000,000,000,0.3)20%,rgba(000,000,000,0.8)70%,rgba(000,000,000,0.90)90%);
   width: 900px;
   height: 650px;
@@ -22,7 +22,7 @@
   transition-delay: 0.2s;
 }
 
-.baulisaac .nombre {
+.baulisaac .nombreisaac {
   font-family: 'Jost';
   color: var(--hostigador);
   text-transform: uppercase;
@@ -41,7 +41,7 @@
   transition-delay: 0.2s;
 }
 
-.baulisaac .nombre span {
+.baulisaac .nombreisaac span {
   color: var(--grey);
   font-size: 30px;
   display: block;
@@ -55,19 +55,19 @@
   transition-delay: 0.2s;
 }
 
-.baulisaac:hover .deg {
+.baulisaac:hover .degisaac {
   margin-top: -350px;
   transition: 1s ease-in;
 }
 
-.baulisaac .fondo {
+.baulisaac .fondoisaac {
   height: 350px;
   width: 800px;
   padding: 0px 50px;
   background: rgba(000,000,000,0.90);
 }
 
-.baulisaac:hover .nombre {
+.baulisaac:hover .nombreisaac {
   font-size: 100px;
   transition: 1s ease-in;
   text-align: center;
@@ -76,7 +76,7 @@
   line-height: 100px;
 }
 
-.baulisaac:hover .nombre span {
+.baulisaac:hover .nombreisaac span {
   font-size: 20px;
   display: block;
   letter-spacing: 25px;
@@ -87,7 +87,7 @@
   transition: 1s ease-out;
 }
 
-.baulisaac .stats {
+.baulisaac .statsisaac {
   color: var(--grey);
   font-family: 'Jost';
   font-size: 15px;
@@ -98,12 +98,12 @@
   height: 175px;
 }
 
-.baulisaac .stats div {
+.baulisaac .statsisaac div {
   text-align: left;
   margin: 10px 0px;
 }
 
-.baulisaac .stats span {
+.baulisaac .statsisaac span {
   color: var(--hostigador);
   font-weight: 600;
   display: inline-block;
@@ -114,7 +114,7 @@
   margin-right: 5px;
 }
 
-.baulisaac .habilidades {
+.baulisaac .habilidadesisaac {
   color: var(--grey);
   font-family: 'Fira Sans';
   font-size: 12px;
@@ -128,7 +128,7 @@
   text-align: justify;
 }
 
-.baulisaac .habilidades span {
+.baulisaac .habilidadesisaac span {
   color: var(--hostigador);
   font-size: 11px;
   text-transform: uppercase;
@@ -136,7 +136,7 @@
   font-weight: 700;
 }
 
-.baulisaac .habilidades span:before {
+.baulisaac .habilidadesisaac span:before {
   content: "\ebc6";
   font-family: 'honeybee';
   font-size: 8px;
@@ -144,7 +144,7 @@
   margin: 0px 2px 0px 0px;
 }
 
-.baulisaac .datos {
+.baulisaac .datosisaac {
   color: var(--grey);
   font-family: 'Jost';
   font-size: 12px;
@@ -158,13 +158,13 @@
   text-transform: uppercase;
 }
 
-.baulisaac .datos i {
+.baulisaac .datosisaac i {
   color: var(--hostigador);
   font-size: 10px;
   margin: 0px 5px;
 }
 
-.baulisaac .frase {
+.baulisaac .fraseisaac {
   border-top: 1px solid var(--grey);
   border-bottom: 1px solid var(--grey);
   height: 13px;
@@ -183,14 +183,14 @@
   text-align: center;
 }
 
-.baulisaac .fotos {
+.baulisaac .fotosisaac {
   width: 380px;
   margin: 110px -5px;
   height: 210px;
   position: absolute;
 }
 
-.baulisaac .fotos img {
+.baulisaac .fotosisaac img {
   width: 180px;
   height: 210px;
   margin: 0px 5px;
@@ -198,7 +198,7 @@
   outline-offset: -1px;
 }
 
-.baulisaac .canciones {
+.baulisaac .cancionesisaac {
   margin: 170px 390px;
   position: absolute;
   color: var(--grey);
@@ -206,12 +206,12 @@
   height: 150px;
 }
 
-.baulisaac .canciones div {
+.baulisaac .cancionesisaac div {
   height: 30px;
   padding: 10px;
 }
 
-.baulisaac .canciones a:before {
+.baulisaac .cancionesisaac a:before {
   font-family: 'honeybee';
   content: "\eb1f";
   font-size: 30px;
@@ -220,7 +220,7 @@
   position: absolute;
 }
 
-.baulisaac .canciones t {
+.baulisaac .cancionesisaac t {
   font-family: 'Jost';
   display: block;
   text-transform: uppercase;
@@ -232,7 +232,7 @@
   color: var(--hostigador);
 }
 
-.baulisaac .canciones c {
+.baulisaac .cancionesisaac c {
   font-family: 'Fira Sans';
   display: block;
   text-transform: uppercase;
@@ -243,12 +243,12 @@
   margin-top: 23px;
 }
 
-.baulisaac .stats, .baulisaac .habilidades, .baulisaac .datos, .baulisaac .frase, .baulisaac .fotos, .baulisaac .canciones {
+.baulisaac .statsisaac, .baulisaac .habilidadesisaac, .baulisaac .datosisaac, .baulisaac .fraseisaac, .baulisaac .fotosisaac, .baulisaac .cancionesisaac {
   opacity: 0;
   transition: 0.5s ease-out;
 }
 
-.baulisaac:hover .stats, .baulisaac:hover .habilidades, .baulisaac:hover .datos, .baulisaac:hover .frase, .baulisaac:hover .fotos, .baulisaac:hover .canciones {
+.baulisaac:hover .statsisaac, .baulisaac:hover .habilidadesisaac, .baulisaac:hover .datosisaac, .baulisaac:hover .fraseisaac, .baulisaac:hover .fotosisaac, .baulisaac:hover .cancionesisaac {
   opacity: 1;
   transition: 0.7s ease-in;
   transition-delay: 0.7s;
