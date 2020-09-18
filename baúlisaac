@@ -1,0 +1,254 @@
+.fijador {
+  width: 100%;
+  height: 650px;
+}
+
+.baulisaac {
+  width: 900px; 
+  height: 650px;
+  overflow: hidden;
+  position: absolute;
+  line-height: 0px;
+  background-image: url(https://i.imgur.com/bRN8qgr.png);
+  background-size: 100%;
+}
+
+.baulisaac .deg {
+  background-image: linear-gradient(rgba(000,000,000,0.0),rgba(000,000,000,0.3)20%,rgba(000,000,000,0.8)70%,rgba(000,000,000,0.90)90%);
+  width: 900px;
+  height: 650px;
+  transition: 1s ease-out;
+  transition-delay: 0.2s;
+}
+
+.baulisaac .nombre {
+  font-family: 'Jost';
+  color: var(--hostigador);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 220px;
+  line-height: 220px;
+  height: 220px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 3px rgba(000,000,000,0.6);
+  margin-top: 480px;
+  margin-left: 10px;
+  position: absolute;
+  transition: 1s ease-out;
+  transition-delay: 0.2s;
+}
+
+.baulisaac .nombre span {
+  color: var(--grey);
+  font-size: 30px;
+  display: block;
+  letter-spacing: 50px;
+  font-weight: 600;
+  margin-top: -115px;
+  margin-left: 50px;
+  line-height: 30px;
+  font-style: italic;
+  transition: 1s ease-out;
+  transition-delay: 0.2s;
+}
+
+.baulisaac:hover .deg {
+  margin-top: -350px;
+  transition: 1s ease-in;
+}
+
+.baulisaac .fondo {
+  height: 350px;
+  width: 800px;
+  padding: 0px 50px;
+  background: rgba(000,000,000,0.90);
+}
+
+.baulisaac:hover .nombre {
+  font-size: 100px;
+  transition: 1s ease-in;
+  text-align: center;
+  margin-top: 380px;
+  margin-left: -170px;
+  line-height: 100px;
+}
+
+.baulisaac:hover .nombre span {
+  font-size: 20px;
+  display: block;
+  letter-spacing: 25px;
+  font-weight: 600;
+  margin-top: 00px;
+  margin-left: 10px;
+  line-height: 00px;
+  transition: 1s ease-out;
+}
+
+.baulisaac .stats {
+  color: var(--grey);
+  font-family: 'Jost';
+  font-size: 15px;
+  line-height: 15px;
+  width: 100px;
+  position: absolute;
+  margin: -80px 0px;
+  height: 175px;
+}
+
+.baulisaac .stats div {
+  text-align: left;
+  margin: 10px 0px;
+}
+
+.baulisaac .stats span {
+  color: var(--hostigador);
+  font-weight: 600;
+  display: inline-block;
+  width: 40px;
+  text-align: right;
+  border-right: 2px solid var(--hostigador);
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+.baulisaac .habilidades {
+  color: var(--grey);
+  font-family: 'Fira Sans';
+  font-size: 12px;
+  line-height: 14px;
+  width: 670px;
+  position: absolute;
+  margin: -75px 120px;
+  padding: 0px 5px;
+  overflow-y: auto;
+  height: 170px;
+  text-align: justify;
+}
+
+.baulisaac .habilidades span {
+  color: var(--hostigador);
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: 'Jost';
+  font-weight: 700;
+}
+
+.baulisaac .habilidades span:before {
+  content: "\ebc6";
+  font-family: 'honeybee';
+  font-size: 8px;
+  vertical-align: 1px;
+  margin: 0px 2px 0px 0px;
+}
+
+.baulisaac .datos {
+  color: var(--grey);
+  font-family: 'Jost';
+  font-size: 12px;
+  line-height: 12px;
+  width: 800px;
+  position: absolute;
+  margin: -125px 0px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.baulisaac .datos i {
+  color: var(--hostigador);
+  font-size: 10px;
+  margin: 0px 5px;
+}
+
+.baulisaac .frase {
+  border-top: 1px solid var(--grey);
+  border-bottom: 1px solid var(--grey);
+  height: 13px;
+  padding: 10px;
+  color: var(--grey);
+  margin-top: 110px;
+  position: absolute;
+  font-size: 13px;
+  line-height: 13px;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-family: 'Times New Roman';
+  opacity: 0.5;
+  width: 390px;
+  margin-left: 390px;
+  text-align: center;
+}
+
+.baulisaac .fotos {
+  width: 380px;
+  margin: 110px -5px;
+  height: 210px;
+  position: absolute;
+}
+
+.baulisaac .fotos img {
+  width: 180px;
+  height: 210px;
+  margin: 0px 5px;
+  outline: 1px solid #080808;
+  outline-offset: -1px;
+}
+
+.baulisaac .canciones {
+  margin: 170px 390px;
+  position: absolute;
+  color: var(--grey);
+  width: 410px;
+  height: 150px;
+}
+
+.baulisaac .canciones div {
+  height: 30px;
+  padding: 10px;
+}
+
+.baulisaac .canciones a:before {
+  font-family: 'honeybee';
+  content: "\eb1f";
+  font-size: 30px;
+  color: var(--hostigador);
+  line-height: 30px;
+  position: absolute;
+}
+
+.baulisaac .canciones t {
+  font-family: 'Jost';
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 9px;
+  color: var(--hostigador);
+}
+
+.baulisaac .canciones c {
+  font-family: 'Fira Sans';
+  display: block;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 10px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 23px;
+}
+
+.baulisaac .stats, .baulisaac .habilidades, .baulisaac .datos, .baulisaac .frase, .baulisaac .fotos, .baulisaac .canciones {
+  opacity: 0;
+  transition: 0.5s ease-out;
+}
+
+.baulisaac:hover .stats, .baulisaac:hover .habilidades, .baulisaac:hover .datos, .baulisaac:hover .frase, .baulisaac:hover .fotos, .baulisaac:hover .canciones {
+  opacity: 1;
+  transition: 0.7s ease-in;
+  transition-delay: 0.7s;
+}
