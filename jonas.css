@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+:root {
+  --jonas: #455773;
+  --grisjo: #4a4a4a;
+}
+
+.bauljonas {
+  width: 900px;
+  margin: 10px auto;
+  line-height: 0px;
+  color: var(--grey);
+}
+
+.bauljonas .headerjonas {
+  width: 900px;
+  height: 300px;
+  background: url('https://i.imgur.com/UOhI9FO.png');
+}
+
+.bauljonas .headerjonas .nombre {
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  text-transform: lowercase;
+  font-size: 80px;
+  line-height: 60px;
+  padding: 110px 0px;
+  background: rgba(255,255,255,0);
+  text-align: center;
+  width: 450px;
+  font-style: italic;
+  letter-spacing: 5px;
+  color: #000;
+}
+
+.bauljonas .headerjonas .nombre span {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 20px;
+  display: block;
+  line-height: 30px;
+  letter-spacing: 10px;
+  margin-left: 15px;
+}
+
+.bauljonas .indicejonas {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  height: 20px;
+  padding: 20px 30px;
+}
+
+.bauljonas .indicejonas a {
+  color: var(--jonas);
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.bauljonas .indicejonas span {
+  display: inline-block;
+}
+
+.bauljonas .indicejonas div {
+  position: absolute;
+  width: auto;
+  padding: 10px;
+  background: rgba(74,74,74,0.85);
+  margin-top: -67.5px;
+  border-radius: 10px;
+  font-size: 11px;
+  line-height: 12px;
+  height: 11px;
+  color: #000;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.bauljonas .indicejonas div:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 5px solid rgba(74,74,74,0.85);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  display: block;
+  position: absolute;
+  margin: 9px 5px;
+}
+
+.bauljonas .indicejonas span:hover div {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.bauljonas .datosjonas {
+  margin-top: 10px;
+  height: 180px;
+}
+
+.bauljonas .datosjonas .cuadricula {
+  width: 440px;
+  height: 180px;
+  position: absolute;
+  margin-left: 460px;
+}
+
+.bauljonas .datosjonas .cuadricula div {
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  height: 40px;
+  margin: 10px 5px;
+}
+
+.bauljonas .datosjonas .cuadricula i {
+  display: block;
+  font-size: 25px;
+  line-height: 25px;
+  margin: auto;
+  color: var(--jonas);
+}
+
+.bauljonas .datosjonas .cuadricula span {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 1px;
+  display: block;
+  text-shadow: 0px 0px 2px #000;
+}
+
+.bauljonas .datosjonas .ttap {
+  font-family: 'Playfair Display';
+  font-size: 50px;
+  font-weight: 600;
+  font-style: italic;
+  width: 200px;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  padding: 65px 0px;
+  margin-left: 275px;
+  color: var(--grisjo);
+}
+
+.bauljonas .datosjonas .fotojonas {
+  width: 260px;
+  height: 180px;
+  background: var(--jonas);
+  background-image: url('https://i.imgur.com/jR2IY70.png');
+  position: absolute;
+}
+
+.bauljonas .combatejonas {
+  margin-top: 30px;
+}
+
+.bauljonas .combatejonas .ttap {
+  font-family: 'Playfair Display';
+  font-size: 50px;
+  font-weight: 600;
+  font-style: italic;
+  width: 250px;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  padding: 60px 0px;
+  margin-left: 0px;
+  color: var(--grisjo);
+}
+
+.bauljonas .combatejonas .ttap span {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  font-style: normal;
+  line-height: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.bauljonas .combatejonas .statsjonas {
+  position: absolute;
+  margin-left: 250px;
+  height: 40px;
+}
+
+.bauljonas .combatejonas .statsjonas div {
+  width: 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+.bauljonas .combatejonas .statsjonas i {
+  display: block;
+  color: var(--jonas);
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.bauljonas .combatejonas .statsjonas span {
+  display: block;
+  color: var(--grey);
+  font-size: 21px;
+  line-height: 21px;
+  font-family: 'Playfair Display';
+  margin-top: -10px;
+}
+
+.bauljonas .combatejonas .habsjonas {
+  width: 340px;
+  padding: 0px 5px;
+  height: 130px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 250px;
+  font-family: 'Poppins';
+  font-size: 11px;
+  line-height: 14px;
+  overflow-y: auto;
+  text-align: justify;
+}
+
+.bauljonas .combatejonas .habsjonas::-webkit-scrollbar-thumb {
+    background-color: var(--jonas);
+}
+
+.bauljonas .combatejonas .habsjonas span {
+  color: var(--jonas);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bauljonas .combatejonas .habsjonas span:before {
+  content: "\ebc6";
+  font-family: 'honeybee';
+  margin: 0px 2px 0px 1px;
+  font-size: 8px;
+}
+
+.bauljonas .combatejonas .fotojonas {
+  width: 270px;
+  height: 180px;
+  background: var(--jonas);
+  background-image: url('https://i.imgur.com/45srmzz.png');
+  position: absolute;
+  margin-left: 630px;
+}
