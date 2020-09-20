@@ -1,0 +1,329 @@
+@charset "UTF-8";
+
+/*caja info AU*/
+
+.cajainfoevelyn {
+  width: 817px;
+  height: 402px;
+  margin: 10px auto;
+  border: 50px solid rgba(000,000,000,0.8);
+  outline: 1px solid #101010;
+  line-height: 0px;
+  color: var(--grey);
+}
+
+.cajainfoevelyn .pestana {
+  border: 1px solid #101010;
+  height: 400px;
+  width: 815px;
+  position: absolute;
+  overflow: hidden;
+  background-image: url(https://i.imgur.com/ck3vovI.jpg);
+  background-size: 100%;
+  background-color: rgba(107,71,42,0.7);
+  background-blend-mode: multiply;
+}
+
+.cajainfoevelyn .pestana .titulo {
+  font-family: 'Old Standard TT';
+  color: var(--accent);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin: 130px 0px 0px 50px;
+  text-shadow: 1px 1px 5px #000;
+  position: absolute;
+}
+
+.cajainfoevelyn .pestana .inform {
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 5px;
+  line-height: 10px;
+  font-weight: 700;
+  font-family: 'Poppins';
+  margin: 152px 0px 0px 70px;
+  color: var(--grey);
+  text-shadow: 1px 1px 5px #000;
+  position: absolute;
+  font-style: normal;
+}
+
+.cajainfoevelyn .pestana label {
+  position: absolute;
+  margin: 151px 0px 0px 200px;
+  cursor: pointer;
+}
+
+.cajainfoevelyn .pestana label:before {
+  content: "\eb20";
+  font-family: 'honeybee';
+  font-size: 12px;
+  line-height: 12px;
+  color: var(--accent);
+  text-shadow: 1px 1px 5px #000;
+}
+
+.cajainfoevelyn .pestana [type=checkbox] {
+  display: none;
+} 
+
+.cajainfoevelyn .caja {
+  opacity: 1;
+  width: 400px;
+  height: 340px;
+  margin-left: 815px;
+  margin-top: 0px;
+  position: absolute;
+  padding: 30px;
+  text-align: justify;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: 'Fira Sans';
+  background: rgba(000,000,000,0.8);
+  border-left: 1px solid #101010;
+  overflow-y: auto;
+  transition: 1s ease-in;
+}
+
+.cajainfoevelyn .caja .apartado {
+  display: block;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.cajainfoevelyn .caja .apartado:after{
+  content: "";
+  height: 1px;
+  width: 120px;
+  background: var(--accent);
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: 4px;
+}
+
+.cajainfoevelyn .caja span {
+  font-weight: 500;
+  border-bottom: 1px solid var(--accent);
+}
+
+.cajainfoevelyn .caja .th-chevron-right {
+  color: var(--accent);
+  font-size: 9px;
+  margin-left: 5px;
+}
+
+.cajainfoevelyn .pestana [type=checkbox]:checked ~ label:before {
+  content: "\eabd";
+}
+
+.cajainfoevelyn .pestana [type=checkbox]:checked ~ label ~ .caja {
+  opacity: 1;
+  margin-left: 354px;
+  transition: 1.5s ease-out;
+}
+
+/*minificha AU*/
+.cajafichaevelyn {
+  border: 40px solid rgba(000,000,000,0.8);
+  outline: 1px solid #101010;
+  width: 502px;
+  height: 302px;
+  margin: 10px auto;
+  line-height: 0px;
+}
+
+.cajafichaevelyn .imagen {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #101010;
+  background-image: url(https://i.imgur.com/ck3vovI.jpg);
+  background-size: 100%;
+  background-color: rgba(000,000,000,0.8);
+  background-blend-mode: multiply;
+  overflow-y: auto;
+}
+
+.cajafichaevelyn .imagen::-webkit-scrollbar {
+  width: 0px;
+}
+
+.cajafichaevelyn .sec1 {
+  margin: 218px 30px 0px;
+  text-align: center;
+}
+
+.cajafichaevelyn .nombre {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #B0BEC5;
+  font-size: 25px;
+  line-height: 25px;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.cajafichaevelyn .datos {
+  padding: 0px 20px;
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  color: #B0BEC5;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.cajafichaevelyn .sec1:after {
+  content: "\ebd8";
+  font-family: 'honeybee';
+  display: block;
+  font-size: 25px;
+  line-height: 25px;
+  color: var(--accent);
+  margin: 10px 0px;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.cajafichaevelyn .datos .th {
+  font-size: 9px;
+  color: var(--accent);
+  margin: 0px 2px;
+}
+
+.cajafichaevelyn .sec2 {
+  background: rgba(000,000,000,0.8);
+  margin: 0px 30px;
+  padding: 20px;
+  border: 1px solid #101010;
+  height: 200px;
+  text-align: justify;
+  font-family: 'Fira Sans';
+  color: var(--grey);
+  line-height: 14px;
+  font-size: 12px;
+  overflow-y: auto;
+}
+
+.cajafichaevelyn .sec3:before {
+  content: "\ebd8";
+  font-family: 'honeybee';
+  display: block;
+  font-size: 25px;
+  line-height: 25px;
+  color: var(--accent);
+  margin: 10px 0px;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.cajafichaevelyn .sec3 {
+  margin: 0px 25px;
+  text-align: center;
+}
+
+.cajafichaevelyn .sec3:after {
+  content: "\ebd8";
+  font-family: 'honeybee';
+  display: block;
+  font-size: 25px;
+  line-height: 25px;
+  color: var(--accent);
+  margin: 10px 0px 5px;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.cajafichaevelyn .sec3 div {
+  background: rgba(000,000,000,0.8);
+  padding: 20px 10px;
+  margin: 0px 5px;
+  border: 1px solid #101010;
+  height: 36px;
+  width: 32px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Old Standard TT';
+  color: var(--accent);
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  overflow-y: auto;
+}
+
+.cajafichaevelyn .sec3 div span {
+  display: block;
+  color: var(--grey);
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  padding-top: 5px;
+  letter-spacing: 1px;
+  border-top: 1px solid #101010;
+}
+
+.cajafichaevelyn .sec4 {
+  margin: 5px 25px;
+  text-align: center;
+}
+
+.cajafichaevelyn .sec4:after {
+  content: "\ebd8";
+  font-family: 'honeybee';
+  display: block;
+  font-size: 25px;
+  line-height: 25px;
+  color: var(--accent);
+  margin: 5px 0px 10px;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.cajafichaevelyn .sec4 div {
+  background: rgba(000,000,000,0.8);
+  padding: 15px 10px;
+  margin: 5px;
+  border: 1px solid #101010;
+  height: 10px;
+  width: 118px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Poppins';
+  color: var(--grey);
+  line-height: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  overflow-y: auto;
+}
+
+.cajafichaevelyn .sec5 {
+  color: #B0BEC5;
+  font-family: 'Old Standard TT';
+  margin: 0px 40px;
+  font-size: 14px;
+  line-height: 15px;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.cajafichaevelyn .sec5:after {
+  content: "\ec8e";
+  font-family: 'honeybee';
+  display: block;
+  font-size: 19px;
+  line-height: 19px;
+  color: var(--accent);
+  margin-top: 10px;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 5px #000;
+  font-style: normal;
+}
