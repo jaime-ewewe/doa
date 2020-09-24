@@ -7,3 +7,55 @@
 .tbnoah .tbdt .fa {color: #4a2121;} 
 .tbnoah .tbrl {font-family: 'Fira Sans'; font-size: 13px; line-height: 16px; text-align: justify;} 
 .tbnoah .tbrl u {font-weight: 700; color: #4a2121; text-decoration: none;}
+
+/*firma fuck you*/
+
+.frnoah {
+  width: 350px;
+  height: 200px;
+  margin: 10px auto;
+  background: url('https://i.imgur.com/deceLZR.png');
+}
+
+.frnoah:after {
+  content: "";
+  width: 350px;
+  height: 5px;
+  background-image: linear-gradient(35deg,#4a2121,#000);
+  display: block;
+  margin-top: 201px;
+  position: absolute;
+}
+
+.frnoah .nmnoah {
+  text-align: left;
+  width: 350px;
+  height: 80px;
+  padding-top: 60px;
+  text-transform: uppercase;
+  position: absolute;
+  font-family: 'Anton';
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+
+.frnoah .nmnoah f {
+  color: #fff;
+  border-bottom: #4a2121;
+  font-size: 60px;
+  line-height: 60px;
+  border-bottom: 10px solid #4a2121;
+  display: block;
+  position: absolute;
+  width: 111px;
+  margin-left: 54px;
+  margin-top: 4px;
+}
+
+.frnoah .nmnoah y {
+  font-size: 80px;
+  line-height: 80px;
+  color: #4a2121;
+  display: block;
+  position: absolute;
+  margin-left: 175px;
+}
