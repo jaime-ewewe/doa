@@ -1,5 +1,82 @@
 @charset "UTF-8";
 
+/*firma darkest hours*/
+.frjb {
+  width: 400px;
+  height: 200px;
+  padding: 21px;
+  margin: 10px auto;
+  background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(125,138,142,0.92) 70%, rgba(125,138,142,0.9) 100%);
+  outline: 1px solid #000;
+  outline-offset: -21px;
+  transition: ease-in 0.3s;
+}
+
+.frjp {
+  width: 400px;
+  height: 200px; 
+  background: url('https://i.imgur.com/FeYx7zo.png');
+  position: absolute;
+  transition: ease-in 0.3s;
+}
+
+.frjb:hover .frjp {
+  filter: grayscale(50%);
+  transition: ease-in 0.3s;
+}
+
+.frjb .shadw {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  transition: ease-in 0.3s;
+}
+
+.frjb:hover .shadw {
+  background: rgba(0,0,0,0.6);
+  transition: ease-in 0.3s;
+}
+
+.frjb:hover {
+  background: linear-gradient(135deg, rgba(0,0,0,1) 30%, rgba(125,138,142,0.92) 100%, rgba(125,138,142,0.9) 100%);
+  transition: ease-in 0.3s;
+}
+
+.frjtx {
+  position: absolute;
+  color: #b4b2b3;
+  text-shadow: 1px 1px 8px #000;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: -2px;
+  line-height: 25px;
+  height: 30px;
+  text-align: right;
+  width: 390px;
+  margin-top: 165px;
+  transition: ease-in 0.3s;
+  transition-delay: 0.1s;
+}
+
+.frjtx span {
+  display: block;
+  font-size: 20px;
+  opacity: 0;
+  transition: ease-in 0.2s;
+}
+
+.frjb:hover .frjtx {
+  margin-top: 145px;
+  transition: ease-in 0.3s;
+}
+
+.frjb:hover .frjtx span {
+  opacity: 1;
+  transition: ease-in 0.3s;
+  transition-delay: 0.2s;
+}
+
 /*índice baúl*/
 :root {
   --jonas: #455773;
