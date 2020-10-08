@@ -176,6 +176,10 @@
   font-weight: 900;
 }
 
+.bauljeno .habsjeno::-webkit-scrollbar-thumb {
+  background-color: var(--orador);
+}
+
 .bauljeno .datsjeno {
   position: absolute;
   width: 200px;
