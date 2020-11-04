@@ -106,7 +106,7 @@
 }
 
 .relas .three .dscrp {
-  font-size: 12px;
+  font-size: 11px;
   line-height: 130%;
   padding: 0px 5px;
   overflow-y: auto;
@@ -118,3 +118,8 @@
 .relas .three.hostigador .nmbr { color: var(--hostigador); }
 .relas .three.orador .nmbr { color: var(--orador); }
 .relas .three.guardian .nmbr { color: var(--guardian); }
+
+.relas .three.canalizador .dscrp::-webkit-scrollbar-thumb { background-color: var(--canalizador); }
+.relas .three.hostigador .dscrp::-webkit-scrollbar-thumb { background-color: var(--hostigador); }
+.relas .three.orador .dscrp::-webkit-scrollbar-thumb { background-color: var(--orador); }
+.relas .three.guardian .dscrp::-webkit-scrollbar-thumb { background-color: var(--guardian); }
