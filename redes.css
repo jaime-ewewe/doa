@@ -1,0 +1,120 @@
+.pnj {
+  width: 400px;
+  margin: auto;
+}
+
+.pnjft {
+  height: 104px;
+  width: 104px;
+  padding: 10px;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  margin: auto;
+}
+
+.pnjft img {
+  height: 100px;
+  width: 100px;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+}
+
+.pnjnm {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 10px;
+  color: var(--accent);
+}
+
+.pnjdt {
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+  font-size: 10px;
+  border-top: 1px solid #101010;
+  border-bottom: 1px solid #101010;
+  margin-top: 5px;
+  padding: 5px 5px;
+  line-height: 10px;
+  text-align: center;
+  color: #424140;
+}
+
+.pnjdt i {
+  font-size: 6px;
+  vertical-align: 1px;
+  margin: 0px 5px;
+  color: var(--accent);
+}
+
+.pnjdc {
+  column-count: 2;
+  font-size: 11px;
+  padding: 10px;
+  line-height: 140%;
+}
+
+.pnjdc span {
+  border-bottom: 1px solid var(--accent);
+  font-weight: 600;
+}
+
+.pnj.canalizador .pnjft, .pnj.canalizador .pnjft img, .pnj.canalizador .pnjdc span { border-color: var(--canalizador); }
+.pnj.canalizador .pnjnm, .pnj.canalizador .pnjdt i { color: var(--canalizador); }
+
+.pnj.hostigador .pnjft, .pnj.hostigador .pnjft img, .pnj.hostigador .pnjdc span { border-color: var(--hostigador); }
+.pnj.hostigador .pnjnm, .pnj.hostigador .pnjdt i { color: var(--hostigador); }
+
+.relas {
+  width: 525px;
+  margin: auto;
+  text-align: center;
+}
+
+.relas .three {
+  width: 170px;
+  margin: 2.5px;
+  display: inline-block;
+}
+
+.relas .three .nmbr {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 900;
+  color: var(--accent);
+  letter-spacing: 0px;
+  padding: 5px 0px;
+}
+
+.relas .three .nmbr span {
+  color: #424140;
+  display: block;
+  font-family: 'Roboto Condensed';
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 11px;
+  border-top: 1px solid #101010;
+  border-bottom: 1px solid #101010;
+  padding: 2px 0px;
+  margin: 5px 0px;
+}
+
+.relas .three .dscrp {
+  font-size: 12px;
+  line-height: 130%;
+  padding: 0px 5px;
+  overflow-y: auto;
+  height: 195px;
+  text-align: justify;
+}
+
+.relas .three.canalizador .nmbr { color: var(--canalizador); }
+.relas .three.hostigador .nmbr { color: var(--hostigador); }
+.relas .three.orador .nmbr { color: var(--orador); }
+.relas .three.guardian .nmbr { color: var(--guardian); }
