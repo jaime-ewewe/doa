@@ -121,6 +121,11 @@
   text-align: justify;
 }
 
+.relas .three .dscrp a {
+  color: var(--grey);
+  font-weight: 500;
+}
+
 .relas .three.canalizador .nmbr { color: var(--canalizador); }
 .relas .three.hostigador .nmbr { color: var(--hostigador); }
 .relas .three.orador .nmbr { color: var(--orador); }
