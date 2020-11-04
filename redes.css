@@ -69,14 +69,14 @@
 .pnj.hostigador .pnjnm, .pnj.hostigador .pnjdt i { color: var(--hostigador); }
 
 .relas {
-  width: 525px;
+  width: 540px;
   margin: auto;
   text-align: center;
 }
 
 .relas .three {
   width: 170px;
-  margin: 2.5px;
+  margin: 5px;
   display: inline-block;
 }
 
