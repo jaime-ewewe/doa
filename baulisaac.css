@@ -1,256 +1,79 @@
-@charset "UTF-8";
-.fijador {
-  width: 100%;
-  height: 650px;
+.plvince {
+  width: 550px;
+  margin: auto;
+  border: 1px solid var(--guardian);
+  height: 681px;
 }
 
-.baulisaac {
-  width: 900px; 
-  height: 650px;
+.plvince .plpic {
+  width: 280px;
+  height: 681px;
+  position: absolute;
   overflow: hidden;
+  background-image: url('https://imgur.com/65wp13j.png');
+}
+
+.plvince .pltitle {
   position: absolute;
-  line-height: 0px;
-  background-image: url(https://i.imgur.com/bRN8qgr.png);
-  background-size: 100%;
-  margin: 0px 10px;
-}
-
-.baulisaac .degisaac {
-  background-image: linear-gradient(rgba(000,000,000,0.0),rgba(000,000,000,0.3)20%,rgba(000,000,000,0.8)70%,rgba(000,000,000,0.90)90%);
-  width: 900px;
-  height: 650px;
-  transition: 1s ease-out;
-  transition-delay: 0.2s;
-}
-
-.baulisaac .nombreisaac {
-  font-family: 'Jost';
-  color: var(--hostigador);
+  transform: rotate(-90deg);
+  width: 650px;
+  margin-top: 337px;
+  margin-left: -60px;
+  font-family: 'Roboto Condensed';
   text-transform: uppercase;
-  font-weight: 900;
-  font-size: 220px;
-  line-height: 220px;
-  height: 220px;
-  width: 100%;
-  text-align: center;
-  letter-spacing: 5px;
-  text-shadow: 1px 1px 3px rgba(000,000,000,0.6);
-  margin-top: 480px;
-  margin-left: 10px;
+  font-size: 26px;
+  line-height: 26px;
+  color: silver;
+  letter-spacing: -1px;
+}
+
+.plvince .pllist {
   position: absolute;
-  transition: 1s ease-out;
-  transition-delay: 0.2s;
+  width: 250px;
+  padding: 0px 5px;
+  background: #080808;
+  height: 671px;
+  margin-left: 280px;
+  overflow: hidden;
+  border: 5px solid #080808;
+  line-height: 0px;
 }
 
-.baulisaac .nombreisaac span {
-  color: var(--grey);
-  font-size: 30px;
-  display: block;
-  letter-spacing: 50px;
-  font-weight: 600;
-  margin-top: -115px;
-  margin-left: 50px;
-  line-height: 30px;
-  font-style: italic;
-  transition: 1s ease-out;
-  transition-delay: 0.2s;
+.plvince .pllist div {
+  padding: 15px 10px;
+  width: 230px;
+  border-bottom: 1px solid rgba(0,0,0,.8);
+  height: 25px;
 }
 
-.baulisaac:hover .degisaac {
-  margin-top: -350px;
-  transition: 1s ease-in;
-}
-
-.baulisaac .fondoisaac {
-  height: 350px;
-  width: 800px;
-  padding: 0px 50px;
-  background: rgba(000,000,000,0.90);
-}
-
-.baulisaac:hover .nombreisaac {
-  font-size: 100px;
-  transition: 1s ease-in;
-  text-align: center;
-  margin-top: 380px;
-  margin-left: -170px;
-  line-height: 100px;
-}
-
-.baulisaac:hover .nombreisaac span {
-  font-size: 20px;
-  display: block;
-  letter-spacing: 25px;
-  font-weight: 600;
-  margin-top: 00px;
-  margin-left: 10px;
-  line-height: 00px;
-  transition: 1s ease-out;
-}
-
-.baulisaac .statsisaac {
-  color: var(--grey);
-  font-family: 'Jost';
+.plvince .pllist a {
+  color: var(--guardian);
+  text-decoration: none;
   font-size: 15px;
   line-height: 15px;
-  width: 100px;
+  height: 10px;
   position: absolute;
-  margin: -80px 0px;
-  height: 175px;
+  margin: 5px 5px;
 }
 
-.baulisaac .statsisaac div {
-  text-align: left;
-  margin: 10px 0px;
-}
-
-.baulisaac .statsisaac span {
-  color: var(--hostigador);
-  font-weight: 600;
-  display: inline-block;
-  width: 40px;
-  text-align: right;
-  border-right: 2px solid var(--hostigador);
-  padding-right: 5px;
-  margin-right: 5px;
-}
-
-.baulisaac .habilidadesisaac {
-  color: var(--grey);
-  font-family: 'Fira Sans';
-  font-size: 12px;
-  line-height: 14px;
-  width: 670px;
-  position: absolute;
-  margin: -75px 120px;
-  padding: 0px 5px;
-  overflow-y: auto;
-  height: 170px;
-  text-align: justify;
-}
-
-.baulisaac .habilidadesisaac span {
-  color: var(--hostigador);
-  font-size: 11px;
-  text-transform: uppercase;
-  font-family: 'Jost';
-  font-weight: 700;
-}
-
-.baulisaac .habilidadesisaac span:before {
-  content: "\ebc6";
-  font-family: 'honeybee';
-  font-size: 8px;
-  vertical-align: 1px;
-  margin: 0px 2px 0px 0px;
-}
-
-.baulisaac .datosisaac {
-  color: var(--grey);
-  font-family: 'Jost';
-  font-size: 12px;
-  line-height: 12px;
-  width: 800px;
-  position: absolute;
-  margin: -125px 0px;
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
-
-.baulisaac .datosisaac i {
-  color: var(--hostigador);
-  font-size: 10px;
-  margin: 0px 5px;
-}
-
-.baulisaac .fraseisaac {
-  border-top: 1px solid var(--grey);
-  border-bottom: 1px solid var(--grey);
-  height: 13px;
-  padding: 10px;
-  color: var(--grey);
-  margin-top: 110px;
-  position: absolute;
+.plvince .pllist span {
+  font-family: 'Lora';
+  color: rgb(192, 192, 192);
   font-size: 13px;
-  line-height: 13px;
-  font-style: italic;
-  letter-spacing: 1px;
-  font-family: 'Times New Roman';
-  opacity: 0.5;
-  width: 390px;
-  margin-left: 390px;
-  text-align: center;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-left: 35px;
 }
 
-.baulisaac .fotosisaac {
-  width: 380px;
-  margin: 110px -5px;
-  height: 210px;
-  position: absolute;
-}
-
-.baulisaac .fotosisaac img {
-  width: 180px;
-  height: 210px;
-  margin: 0px 5px;
-  outline: 1px solid #080808;
-  outline-offset: -1px;
-}
-
-.baulisaac .cancionesisaac {
-  margin: 170px 390px;
-  position: absolute;
+.plvince .pllist i {
+  font-style: normal;
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+  font-size: 9px;
   color: var(--grey);
-  width: 410px;
-  height: 150px;
-}
-
-.baulisaac .cancionesisaac div {
-  height: 30px;
-  padding: 10px;
-}
-
-.baulisaac .cancionesisaac a:before {
-  font-family: 'honeybee';
-  content: "\eb1f";
-  font-size: 30px;
-  color: var(--hostigador);
-  line-height: 30px;
-  position: absolute;
-}
-
-.baulisaac .cancionesisaac t {
-  font-family: 'Jost';
+  letter-spacing: 0.25px;
   display: block;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 12px;
-  position: absolute;
-  margin-left: 40px;
-  margin-top: 9px;
-  color: var(--hostigador);
-}
-
-.baulisaac .cancionesisaac c {
-  font-family: 'Fira Sans';
-  display: block;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 10px;
-  position: absolute;
-  margin-left: 50px;
-  margin-top: 23px;
-}
-
-.baulisaac .statsisaac, .baulisaac .habilidadesisaac, .baulisaac .datosisaac, .baulisaac .fraseisaac, .baulisaac .fotosisaac, .baulisaac .cancionesisaac {
-  opacity: 0;
-  transition: 0.5s ease-out;
-}
-
-.baulisaac:hover .statsisaac, .baulisaac:hover .habilidadesisaac, .baulisaac:hover .datosisaac, .baulisaac:hover .fraseisaac, .baulisaac:hover .fotosisaac, .baulisaac:hover .cancionesisaac {
-  opacity: 1;
-  transition: 0.7s ease-in;
-  transition-delay: 0.7s;
+  line-height: 11px;
+  margin-left: 35px;
 }
