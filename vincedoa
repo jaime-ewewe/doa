@@ -1,0 +1,179 @@
+.marcovince {
+  width: 900px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.baulvince .vicover {
+  width: 900px;
+  height: 900px;
+  transition: 2s ease-in;
+}
+
+.baulvince:hover .vicover {
+  margin-top: -300px;
+  transition: 2s ease-out;
+}
+
+.baulvince .viname {
+  font-family: 'Calibri';
+  text-transform: uppercase;
+  font-size: 12px;
+  color: silver;
+  line-height: 12px;
+  letter-spacing: 10px;
+  padding: 30px;
+  padding-left: 40px;
+  border: 2px solid silver;
+  width: 250px;
+  text-align: center;
+  display: inline-block;
+  margin: 0px 288px;
+  animation: vince 1s infinite;
+  position: absolute;
+}
+
+@keyframes vince {
+  0% {
+   margin-top: 412px;
+  }
+  
+  25% {
+    margin-top: 411px;
+  }
+  
+  50% {
+    margin-top: 412px;
+  }
+  
+  75% {
+    margin-top: 413px;
+  }
+  
+  100% {
+    margin-top: 412px;
+  }
+}
+
+.vibloq {
+  font-family: 'Georgia';
+  color: silver;
+  font-size: 15px;
+  line-height: 18px;
+  font-style: italic;
+  width: 250px;
+  margin: auto;
+  display: inline-block;
+  margin: 600px 325px;
+  text-align: justify;
+}
+
+.vibloq::first-letter {
+  font-size: 50px;
+  float: left;
+  line-height: 54px;
+  margin-right: 7px;
+  font-style: normal;
+}
+
+.baulvince .viindx {
+  padding: 5px 10px;
+}
+
+.baulvince .viindx a {
+  color: var(--grey);
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
+  display: inline-block;
+  padding: 10px;
+  margin: 0px 5px;
+  letter-spacing: 2px;
+  padding-left: 12px;
+  border-bottom: 2px solid var(--grey);
+  text-decoration: none;
+  transition: 0.2s ease-out;
+}
+
+.baulvince .viindx #v {
+  color: var(--guardian);
+  border-bottom: 2px solid var(--guardian);
+}
+
+.baulvince .viindx #b {
+  color: silver;
+  border-bottom: 2px solid silver;
+}
+
+.baulvince .viindx a:hover {
+  border-width: 5px!important;
+  padding-bottom: 7px;
+  transition: 0.2s ease-in;
+}
+
+/*font*/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7DRs5.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19a7DRs5.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-1967DRs5.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19G7DRs5.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-1927DRs5.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19y7DRs5.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
