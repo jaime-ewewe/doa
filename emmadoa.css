@@ -10,15 +10,14 @@
   background-image: url(https://place-hold.it/900x500/757575/ffffff/000000.png&fontsize=25);
   position: absolute;
   overflow: hidden;
+  line-height: 0px;
 }
 
-.baulemma
-::-webkit-scrollbar-thumb {
+.baulemma::-webkit-scrollbar-thumb {
     background-color: var(--canalizador);
 }
 
-.baulemma
-::-webkit-scrollbar {
+.baulemma::-webkit-scrollbar {
     background-color: rgba(0,0,0,0);
   height: 4px;
 }
