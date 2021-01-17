@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'IcoFont';
+  src: url('https://dl.dropboxusercontent.com/s/uw6kyypbcw9hb3j/icofont.min.css');
+}
+
+.sgake {
+  width: 292px;
+  height: 202px;
+  margin: 10px auto;
+  padding: 10px;
+  background-image: linear-gradient(-45deg,#a17f8c,#080808 90%);
+  box-shadow: 0px 0px 1px #a17f8c;
+}
+
+.sgake .picake {
+  width: 290px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.sgake .blake {
+  background-image: linear-gradient(-45deg,rgba(161,127,140,0.8), rgba(000,000,000,0.8) 90%);
+  width: 290px;
+  height: 200px;
+  border-right: 1px solid #000;
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  transition: 1s;
+  transition-delay: 0.3s;
+}
+
+.sgake .blake div {
+  width: 290px;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sgake .blake span {
+  display: inline-block;
+  margin-top: 109px;
+  margin-left: -300px;
+  font-size: 107px;
+  line-height: 107px;
+  font-weight: 900;
+  letter-spacing: -8px;
+  transition: 0.8s;
+}
+
+.sgake .quake {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(00,00,00,0.5);
+  font-style: normal;
+  position: absolute;
+  font-size: 9px;
+  line-height: 9px;
+  font-weight: 400;
+  text-align: justify;
+  width: 90px;
+  margin-left: 15px;
+  margin-top: 70px;
+  padding: 5px;
+  font-family: 'Calibri';
+  text-transform: uppercase;
+  z-index: 9;
+  letter-spacing: 0.5px;
+  transition: 1s;
+  transition-delay: 0.2s;
+  word-break: break-all;
+}
+
+.sgake.dos .quake {
+  margin-left: 175px;
+  margin-top: 70px;
+}
+
+.sgake .quake i {
+  display: block;
+  margin: auto;
+  font-size: 45px;
+  margin: auto;
+  width: 45px;
+  line-height: 45px;
+  color: rgba(000,000,000,0.8);
+  transition: 0.3s;
+  transition-delay: 0.8s;
+  text-shadow: none;
+}
+
+.sgake:hover .blake {
+  opacity: 1;
+  transition: 1s;
+}
+
+.sgake:hover .blake span {
+  margin-left: 0px;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+.sgake:hover .quake {
+  width: 280px;
+  margin-left: 0px;
+  margin-top: 57px;
+  text-align-last: justify;
+  transition: 1s;
+  transition-delay: 0s;
+  text-shadow: none;
+  color: #000;
+}
+
+.sgake:hover .quake i {
+  opacity: 0;
+  transition: 0.3s;
+}
