@@ -1,0 +1,375 @@
+.baulsarah {
+  width: 900px;
+  height: 621px;
+  background: #080808;
+  background-size: 900px auto;
+}
+
+:root {
+  --verde-sarah: #384638;
+  --naranja-sarah: #d68c56;
+}
+
+.baulsarah ::-webkit-scrollbar {
+  height: 5px;
+  background: #fff;
+}
+
+.baulsarah ::-webkit-scrollbar-thumb {
+    background-color: var(--verde-sarah);
+}
+
+.baulsarah .saindx {
+  background: rgba(255,255,255,0.7);
+  height: 80px;
+  padding: 20px;
+  border-bottom: 1px solid var(--verde-sarah);
+}
+
+.baulsarah .sasello {
+  height: 40px;
+  width: 40px;
+  border: 2px solid var(--naranja-sarah);
+  position: absolute;
+  padding: 19px;
+  border-radius: 50%;
+}
+
+.baulsarah .sasello i {
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: var(--naranja-sarah);
+}
+
+.baulsarah .saname {
+  font-family: 'Barlow';
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 35px;
+  position: absolute;
+  margin: 17.5px 100px;
+  color: var(--verde-sarah);
+}
+
+.baulsarah .saquote {
+  font-family: 'Barlow';
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 10px;
+  width: 270px;
+  text-align: center;
+  color: #000;
+  letter-spacing: 1px;
+  margin: 52.5px 100px;
+  position: absolute;
+}
+
+.baulsarah .salinks {
+  height: 47px;
+  position: absolute;
+  margin: 16.5px 390px;
+  width: 400px;
+}
+
+.baulsarah .salinks a {
+  text-decoration: none;
+  color: var(--verde-sarah);
+  display: inline-block;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  height: 20px;
+  width: 30px;
+  border: 1px solid var(--verde-sarah);
+  padding: 10px 5px;
+  border-radius: 50%;
+  margin: 2.5px;
+}
+
+.baulsarah .salinks a:hover {
+  color: var(--naranja-sarah);
+  border-color: var(--naranja-sarah);
+  transition: 1s;
+}
+
+.baulsarah .sapestana [type=checkbox] {
+  display: none;
+}
+
+.baulsarah .sapestana label {
+  border: 2px solid var(--verde-sarah);
+  position: absolute;
+  margin: -91px 810px;
+  border-radius: 50%;
+  font-size: 20px;
+  height: 20px;
+  line-height: 20px;
+  width: 30px;
+  text-align: center;
+  padding: 20px 15px;
+  color: var(--verde-sarah);
+}
+
+.baulsarah .sapestana label span {
+  display: block;
+  position: absolute;
+  background: rgba(56,70,56,0.9);
+  padding: 10px;
+  font-family: 'Barlow';
+  text-transform: uppercase;
+  font-size: 7px;
+  line-height: 7px;
+  color: #fff;
+  border-radius: 10px;
+  margin: 30px -10px;
+  z-index: 9;
+  letter-spacing: 1px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.baulsarah .sapestana label span:before {
+  width: 0px;
+  height: 0px;
+  content: "";
+  border-top: 0px solid rgba(56,70,56,0);
+  border-left: 10px solid rgba(56,70,56,0);
+  border-right: 10px solid rgba(56,70,56,0);
+  border-bottom: 6px solid rgba(56,70,56,0.9);
+  position: absolute;
+  display: block;
+  margin: -16px 5px;
+}
+
+.baulsarah .sapestana label:hover span {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.baulsarah .sapestana label:before {
+  font-family: 'Honeybee';
+  content: "\ebd8";
+}
+
+.baulsarah .sapestana [type=checkbox]:checked ~ label:before {
+  font-family: 'Honeybee';
+  content: "\ec1e";
+}
+
+.baulsarah .sapestana .sahov {
+  width: 820px;
+  height: 420px;
+  padding: 40px;
+  background: rgba(255,255,255,0.4);
+  opacity: 0;
+  transition: 1s;
+}
+
+.baulsarah .sapestana [type=checkbox]:checked ~ label ~ .sahov {
+  opacity: 1;
+  transition: 1s;
+}
+
+.baulsarah .sadts {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  padding: 50px 40px;
+  background: rgba(255,255,255,0.7);
+  margin-top: 70px;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.baulsarah .sacirc {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background: rgba(255,255,255,0.9);
+  margin: -111px auto 0px;
+  border-radius: 50%;
+  box-shadow: 0px -1px 1px #000;
+}
+
+.baulsarah .sacirc img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.baulsarah .sacombt {
+  padding: 50px;
+  height: 223px;
+  padding: 50px;
+  width: 296px;
+  position: absolute;
+  margin-left: 422px;
+  background: rgba(255,255,255,0.7);
+  box-shadow: 0px 0px 2px #000;
+}
+
+.baulsarah .sacombt .sastats {
+  border-top: 1px solid var(--verde-sarah);
+  border-bottom: 1px solid var(--verde-sarah);
+  width: 296px;
+  height: 11px;
+  font-family: 'Barlow';
+  font-size: 11px;
+  line-height: 11px;
+  padding: 10px 0px;
+  text-align: center;
+  color: var(--verde-sarah);
+  font-weight: 600;
+}
+
+.baulsarah .sacombt .sastats b {
+  font-weight: 800;
+  color: var(--naranja-sarah);
+}
+
+.baulsarah .sacombt .sastats i {
+  font-size: 7px;
+  vertical-align: 1px;
+}
+
+.baulsarah .sacombt .satype {
+  width: 296px;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 33px;
+}
+
+.baulsarah .sacombt .satype div {
+  width: 98px;
+  display: inline-block;
+  font-family: 'Barlow';
+  color: var(--verde-sarah);
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 11px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.baulsarah .sacombt .satype span {
+  color: var(--naranja-sarah);
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 2px;
+  font-family: 'Georgia';
+}
+
+.baulsarah .sacombt .sahabs {
+  width: 296px;
+  height: 127px;
+  overflow-x: auto;
+  column-count: 2;
+  padding: 10px 0px;
+  column-gap: 0px;
+  text-align: center;
+}
+
+.baulsarah .sacombt .sahabs div {
+  border: 1px solid var(--naranja-sarah);
+  height: 100px;
+  width: 100px;
+  line-height: 13px;
+  padding: 10px;
+  font-size: 10px;
+  font-family: 'Barlow';
+  text-transform: uppercase;
+  color: #000;
+  display: inline-block;
+}
+
+.baulsarah .sacombt .sahabs i {
+  display: block;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 0% 50% 50% 0%;
+  color: var(--naranja-sarah);
+  margin: 15px 0px 10px
+}
+
+.baulsarah .sacombt .sahabs span {
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--verde-sarah);
+}
+
+.baulsarah .sacim {
+  width: 380px;
+  height: 35px;
+  padding: 10px 8px;
+  background: rgba(255,255,255,0.7);
+  position: absolute;
+  box-shadow: 0px 0px 2px #000;
+  margin: 365px 422px;
+}
+
+.baulsarah .sacim a {
+  text-decoration: none;
+  color: var(--naranja-sarah);
+  font-size: 25px;
+  line-height: 25px;
+  margin: 0px;
+  width: 25px;
+  display: inline-block;
+}
+
+.baulsarah .sacim span {
+  color: var(--naranja-sarah);
+  font-family: 'Barlow';
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.baulsarah .sacim i {
+  font-style: normal;
+  font-size: 9px;
+  color: var(--verde-sarah);
+  font-weight: 500;
+  display: block;
+}
+
+.baulsarah .sacim div {
+  font-family: 'Barlow';
+  line-height: 13px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 5px 2.5px;
+  width: 185px;
+}
+
+.baulsarah .sadts .sacasi {
+  width: 300px;
+  text-align: center;
+}
+
+.baulsarah .sadts .sacasi div {
+  width: 95px;
+  height: 37px;
+  margin: 15px 2.5px;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Barlow';
+  font-size: 9px;
+  line-height: 12px;
+  font-weight: 600;
+  color: var(--verde-sarah);
+  text-transform: uppercase;
+}
+
+.baulsarah .sadts .sacasi i {
+  display: block;
+  font-size: 25px;
+  color: var(--naranja-sarah);
+  line-height: 27px;
+}
